@@ -20,8 +20,8 @@ This project automates the testing of Android mobile applications using Appium a
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/-repository.git
-   
+   git clone https://github.com/farizyudo/Setup-QA.git
+
 2. Navigate to the project directory
     cd your-repository
 
