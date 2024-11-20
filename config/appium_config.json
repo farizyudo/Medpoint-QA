@@ -1,0 +1,7 @@
+{
+    "platformName": "Android",
+    "deviceName": "Pixel_Emulator",
+    "app": "/path/to/your/application.apk",
+    "automationName": "UiAutomator2"
+  }
+  
