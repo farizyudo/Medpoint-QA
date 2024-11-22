@@ -10,12 +10,20 @@ This project is designed to automate mobile application testing using **Appium**
 - [Test Execution](#test-execution)
 
 ## Introduction
-This project automates the testing of Android mobile applications using Appium and Robot Framework. It aims to reduce manual testing effort and provide reliable automated test cases.
+Proyek ini adalah sistem QA Automation yang menggunakan **Appium** dan **Robot Framework** untuk pengujian aplikasi mobile. Struktur konfigurasi pengujian menggunakan format **JSON**. Proyek ini bertujuan untuk memastikan bahwa fitur-fitur pada aplikasi mobile medpoint berfungsi dengan baik melalui pengujian otomatis.
 
 ## Technologies Used
-- **Appium**: Mobile automation tool for Android.
-- **Robot Framework**: Test automation framework.
-- **Python**: Programming language for scripts and libraries.
+- **Python**: Bahasa pemrograman yang digunakan sebagai dasar untuk Robot Framework.
+- **Appium**: Digunakan untuk melakukan pengujian otomatis pada aplikasi mobile. Appium mendukung berbagai platform, termasuk Android dan iOS, dan memanfaatkan WebDriver sebagai API.
+- **Robot Framework**: Kerangka kerja otomatisasi berbasis open-source yang memungkinkan pengujian dilakukan dengan penulisan script berbasis keyword-driven.
+- **JSON**: Digunakan sebagai format konfigurasi untuk Appium dan variabel yang diperlukan selama pengujian.
+
+## Installation
+1. Pastikan kamu sudah menginstall **Python**. Versi terbaru Python bisa diunduh di [python.org](https://www.python.org/).
+2. Install **Robot Framework** dan **AppiumLibrary** menggunakan pip:
+   ```bash
+   pip install robotframework
+   pip install robotframework-appiumlibrary
 
 ## Installation
 1. Clone this repository:
@@ -32,19 +40,4 @@ This project automates the testing of Android mobile applications using Appium a
 
 4. Install the dependencies:
     - pip install -r requirements.txt
-
-## Usage
-1. Start Appium server:
-   ```bash
-   appium
-
-2. Run tests with Robot Framework : 
-  robot -d reports/ tests/
-
-
-## Test Execution
-To run the tests, make sure Appium server is running. Then execute:
-```bash
-robot -d reports/ tests/
-The test results will be available in the reports/ folder, including report.html and log.html.
 

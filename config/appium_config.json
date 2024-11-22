@@ -1,7 +1,5 @@
 {
-    "platformName": "Android",
-    "deviceName": "Pixel_Emulator",
-    "app": "/path/to/your/application.apk",
-    "automationName": "UiAutomator2"
-  }
-  
+  "server_url": "http://localhost:4723/wd/hub",
+  "timeout": 30,
+  "log_level": "info"
+}
